@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+  <title>Content</title>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <!-- <link href="css/styles.css" rel="stylesheet"> -->
+
+<style media="screen">
+.center {
+margin: auto;
+width: 100%;
+border: 3px ;
+padding:10% 20%;
+
+}
+
+body{
+  background-color: #fcbf1e;
+}
+
+</style>
+
+
+</head>
+<body class="center ">
+  <img src=<%=imageURL%>>
+  <h3>The temperature in <%=query%> is <%=temp%> °C</h3>
+<p>The weather is currently  <%=weatherDescription%> <p>
+
+  <form action="/failure" method="post">
+    <button class="btn btn-lg btn-primary"type="submit" name="button"><i class="fas fa-cloud-sun"></i> Check Another City</button>
+  </form>
+</body>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</html>
